@@ -1,0 +1,1 @@
+addSbtPlugin("com.github.bjaglin" % "sbt-memoize" % System.getProperty("plugin.version"))
