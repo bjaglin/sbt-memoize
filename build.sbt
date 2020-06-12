@@ -18,3 +18,8 @@ developers := List(
 enablePlugins(SbtPlugin)
 scriptedLaunchOpts += "-Dplugin.version=" + version.value
 scriptedBufferLog := false
+
+semanticdbEnabled := true
+semanticdbVersion := scalafixSemanticdb.revision
+scalafixCaching := true
+libraryDependencies += "com.github.liancheng" %% "organize-imports" % "0.3.1-RC2" % ScalafixConfig
