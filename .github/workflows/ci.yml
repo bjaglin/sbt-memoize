@@ -11,6 +11,6 @@ jobs:
         with:
           java-version: adopt@1.11
       - name: Lint
-        run: csbt scalafmtSbtCheck scalafmtCheckAll
+        run: csbt scalafmtSbtCheck scalafmtCheckAll "scalafix --check"
       - name: Test
         run: csbt test scripted
