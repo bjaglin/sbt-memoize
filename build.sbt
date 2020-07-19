@@ -22,4 +22,4 @@ scriptedBufferLog := false
 semanticdbEnabled := true
 semanticdbVersion := scalafixSemanticdb.revision
 scalafixCaching := true
-libraryDependencies += "com.github.liancheng" %% "organize-imports" % "0.3.1-RC3" % ScalafixConfig
+libraryDependencies += "com.github.liancheng" %% "organize-imports" % "0.4.0" % ScalafixConfig
