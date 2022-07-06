@@ -1,6 +1,6 @@
 sbtPlugin := true
 pluginCrossBuild / sbtVersion := "1.2.8" // cf https://github.com/sbt/sbt/issues/5049#issuecomment-538404839
-scalaVersion := "2.12.11"
+scalaVersion := "2.12.16"
 
 organization := "com.github.bjaglin"
 name := "sbt-memoize"
